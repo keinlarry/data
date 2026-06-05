@@ -71,19 +71,21 @@
             Portfolio Officiel
         </div>
         <h1 data-aos="fade-up" data-aos-delay="200" class="text-6xl md:text-8xl font-black mb-4 text-white">
-            Kein <span class="text-gradient">Ebindja</span>
+            Kein <span class="text-gradient">Ebindja</span> <!-- Mon nom -->>
         </h1>
         <h2 class="text-2xl md:text-4xl font-bold mb-10 text-white">
             Je suis <span id="typing" class="text-sky-400"></span>
         </h2>
         <div data-aos="fade-up" data-aos-delay="600" class="flex gap-4">
-            <a href="CV_KEIN_EBINDJA.pdf" download class="bg-sky-600 hover:bg-sky-700 text-white px-8 py-4 rounded-2xl font-bold transition shadow-lg shadow-sky-500/20 flex items-center gap-2">
+            <a href="CV_Kein_EBINDJA.pdf" download class="bg-sky-600 hover:bg-sky-700 text-white px-8 py-4 rounded-2xl font-bold transition shadow-lg shadow-sky-500/20 flex items-center gap-2">
                 <i class='bx bx-download text-xl'></i> Télécharger CV
             </a>
             <a href="#contact" class="glass px-8 py-4 rounded-2xl font-bold hover:bg-white/5 transition text-white">Me contacter</a>
         </div>
     </section>
 
+
+    <!-- SECTION QUI SUIS-JE -->
     <section id="about" class="py-24 px-6 max-w-6xl mx-auto">
         <div class="grid md:grid-cols-2 gap-16 items-start">
             <div data-aos="fade-right" class="md:sticky md:top-32 justify-self-center">
@@ -99,42 +101,89 @@
                 <div class="prose prose-invert">
                     <h3 class="text-2xl font-bold text-sky-400">Qui suis-je ?</h3>
                     <p class="text-gray-300 leading-relaxed text-lg">
-                        Passionné par l'univers de la donnée et de l'intelligence artificielle, j'accompagne les entreprises dans la transformation de leurs données brutes en leviers de décision stratégiques. Mon approche combine rigueur mathématique et créativité technologique.
-                    </p>
+                    <strong class="text-white">Data Scientist</strong>, passionné par la modélisation mathématique, l'IA et la data science.
+                    Fort d'une solide formation en Mathématiques Appliquées - Statistiques,
+                    je conçois, structure des flux de données fiables et des modèles de Machine Learning
+                    pour répondre à des besoins décisionnels. Ci-dessous certaines de mes compétences techniques.
+                </p>
                 </div>
 
                 <div class="space-y-4">
-                    <div class="glass p-6 rounded-2xl">
-                        <h3 class="text-sky-400 font-bold mb-3 flex items-center gap-2"><i class='bx bx-brain'></i> ML & Deep Learning</h3>
-                        <p class="text-sm text-gray-400 italic">Régression, Arbres de décision, CNN, Transformers, LLM.</p>
+                <!-- ML & Modélisation -->
+                <div class="glass p-6 rounded-2xl">
+                    <h3 class="text-sky-400 font-bold mb-3 flex items-center gap-2">
+                        <i class='bx bx-brain'></i> Machine Learning (ML) & Modélisation
+                    </h3>
+                    <div class="space-y-2 text-sm text-gray-300">
+                        <p><span class="text-white font-medium">Algorithmes ML :</span> Régression, SVM, Arbres de décision, Clustering, ACP.</p>
+                        <p><span class="text-white font-medium">Deep Learning :</span> CNN, RNN, LSTM, Transformers, LLM.</p>
+                        <p><span class="text-white font-medium">Renforcement :</span> Q-Learning, SARSA, ACO.</p>
+                        <p class="text-xs text-sky-300/80 italic pt-1">Frameworks : PyTorch, TensorFlow, Keras, Scikit-learn.</p>
                     </div>
-                    <div class="glass p-6 rounded-2xl">
-                        <h3 class="text-sky-400 font-bold mb-3 flex items-center gap-2"><i class='bx bx-code-alt'></i> Programmation</h3>
-                        <p class="text-sm text-gray-400 italic">Python, R, SQL, PyTorch, TensorFlow, Pandas.</p>
+                </div>
+
+                <!-- Données & Programmation -->
+                <div class="glass p-6 rounded-2xl">
+                    <h3 class="text-sky-400 font-bold mb-3 flex items-center gap-2">
+                        <i class='bx bx-code-alt'></i> Langages & Manipulation de données
+                    </h3>
+                    <div class="space-y-2 text-sm text-gray-300">
+                        <p><span class="text-white font-medium">Langages :</span> Python (avancé), R, MATLAB, C, SQL.</p>
+                        <p><span class="text-white font-medium">Data & Analytics :</span> Pandas, NumPy.</p>
+                        <p class="text-xs text-sky-300/80 italic pt-1">Outils : Jupyter, Google Colab, RStudio, Git (GitHub).</p>
                     </div>
-                    <div class="glass p-6 rounded-2xl">
-                        <h3 class="text-sky-400 font-bold mb-3 flex items-center gap-2"><i class='bx bx-cloud'></i> Cloud & Outils</h3>
-                        <p class="text-sm text-gray-400 italic">GCP, Docker, Power BI, Matplotlib.</p>
+                </div>
+
+                <!-- Cloud & Visualisation -->
+                <div class="glass p-6 rounded-2xl">
+                    <h3 class="text-sky-400 font-bold mb-3 flex items-center gap-2">
+                        <i class='bx bx-cloud'></i> Cloud & Visualisation
+                    </h3>
+                    <div class="space-y-2 text-sm text-gray-300">
+                        <p><span class="text-white font-medium">Cloud :</span> Azure, Google Cloud Platform (GCP).</p>
+                        <p><span class="text-white font-medium">Dataviz :</span> Matplotlib, Seaborn (Analyse exploratoire).</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
+
+    <!-- SECTION PROJETS -->
     <section id="projects" class="py-24 px-6 max-w-[90rem] mx-auto">
         <div class="text-center mb-16">
             <h2 data-aos="fade-up" class="text-4xl font-bold mb-4 italic text-white">Projets et <span class="text-sky-400">Réalisations</span></h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Projet 1 -->
             <div data-aos="fade-up" data-aos-delay="100" class="group glass rounded-3xl overflow-hidden">
-                <div class="overflow-hidden bg-sky-900/10"><img src="p1.jpg" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500"></div>
+                <div class="overflow-hidden bg-sky-900/10"><img src="/workspaces/data/Image/Churn.jpg" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500"></div>
                 <div class="p-6">
-                    <h3 class="text-lg font-bold mb-2 text-white">Projet 1</h3>
+                    <h3 class="text-lg font-bold mb-2 text-white">Analyse de la Fidélisation Client (Churn)</h3>
                     <p class="text-gray-400 text-xs mb-4">Optimisation de la rétention client via des modèles XGBoost.</p>
                     <a href="https://github.com/keinlarry" target="_blank" class="text-sky-400 hover:text-white transition font-bold text-xs"><i class='bx bxl-github text-lg align-middle'></i> Code Source</a>
                 </div>
             </div>
+
+            <!-- Projet 1 -->
+            <div data-aos="fade-up" data-aos-delay="100" class="group glass rounded-3xl overflow-hidden">
+                <div class="overflow-hidden bg-sky-900/10">
+                    <img src="/workspaces/data/Image/Churn.jpg" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-lg font-bold mb-2 text-white">Analyse de la Fidélisation Client (Churn)</h3>
+                    <p class="text-gray-400 text-xs mb-4">Projet de machine learning visant à anticiper le départ des clients d'une banque
+                        multinationale. À partir d'un dataset déséquilibré (~20% de churn), j'ai comparé cinq algorithmes de classification,
+                        déployé le modèle retenu via une API <span class="text-sky-400">FastAPI</span> et un dashboard <span class="text-sky-400">Streamlit</span> permettant l'évaluation individuelle du risque client, avec une explicabilité assurée par <span class="text-sky-400">SHAP</span>.</p>
+                    <p class="text-gray-500 text-xs mb-4">Python · Scikit-Learn · FastAPI · Streamlit · SHAP · Pandas</p>
+                    <a href="https://github.com/keinlarry/Bank-Customer-Churn-Prediction" target="_blank" class="text-sky-400 hover:text-white transition font-bold text-xs"><i class='bx bxl-github text-lg align-middle'></i> Code Source</a>
+                </div>
+            </div>
+        
+
+            <!-- Projet 2 -->
             <div data-aos="fade-up" data-aos-delay="200" class="group glass rounded-3xl overflow-hidden">
                 <div class="overflow-hidden bg-sky-900/10"><img src="p2.jpg" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500"></div>
                 <div class="p-6">
@@ -143,6 +192,8 @@
                     <a href="https://github.com/keinlarry" target="_blank" class="text-sky-400 hover:text-white transition font-bold text-xs"><i class='bx bxl-github text-lg align-middle'></i> Code Source</a>
                 </div>
             </div>
+
+            <!-- Projet 3 -->
             <div data-aos="fade-up" data-aos-delay="300" class="group glass rounded-3xl overflow-hidden">
                 <div class="overflow-hidden bg-sky-900/10"><img src="p3.jpg" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500"></div>
                 <div class="p-6">
@@ -151,6 +202,8 @@
                     <a href="https://github.com/keinlarry" target="_blank" class="text-sky-400 hover:text-white transition font-bold text-xs"><i class='bx bxl-github text-lg align-middle'></i> Code Source</a>
                 </div>
             </div>
+
+            <!-- Projet 4 -->
             <div data-aos="fade-up" data-aos-delay="400" class="group glass rounded-3xl overflow-hidden border-dashed border-sky-500/30">
                 <div class="h-48 bg-sky-900/10 flex items-center justify-center relative">
                     <i class='bx bx-hourglass bx-spin text-5xl text-sky-500/50'></i>
@@ -164,6 +217,7 @@
         </div>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" class="py-24 px-6 max-w-6xl mx-auto">
         <div class="glass rounded-[40px] p-12 text-center relative overflow-hidden">
             <h2 data-aos="fade-up" class="text-4xl font-bold mb-4 italic text-white">Contactez-<span class="text-sky-400">moi</span></h2>
@@ -173,10 +227,10 @@
                     <span class="text-xs font-bold uppercase text-white">Email</span>
                     <span class="text-[10px] text-sky-500 opacity-0 group-hover:opacity-100 transition">kein.ebindja.data@gmail.com</span>
                 </a>
-                <a href="tel:+33759601427" class="flex flex-col items-center p-8 glass rounded-3xl group">
+                <a href="tel:+33758608845" class="flex flex-col items-center p-8 glass rounded-3xl group">
                     <i class='bx bx-phone-call text-4xl mb-4 text-sky-400 group-hover:scale-125 transition'></i>
                     <span class="text-xs font-bold uppercase text-white">Téléphone</span>
-                    <span class="text-[10px] text-sky-500 opacity-0 group-hover:opacity-100 transition">+33 7 59 60 14 27</span>
+                    <span class="text-[10px] text-sky-500 opacity-0 group-hover:opacity-100 transition">+33758608845</span>
                 </a>
                 <a href="https://www.linkedin.com/in/kein-e-60256734a" target="_blank" class="flex flex-col items-center p-8 glass rounded-3xl group">
                     <i class='bx bxl-linkedin text-4xl mb-4 text-sky-400 group-hover:scale-125 transition'></i>
