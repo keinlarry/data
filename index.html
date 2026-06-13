@@ -173,19 +173,32 @@
                     <a href="https://github.com/keinlarry/Bank-Customer-Churn-Prediction" target="_blank" class="text-sky-400 hover:text-white transition font-bold text-xs"><i class='bx bxl-github text-lg align-middle'></i> Code Source</a>
                 </div>
             </div>
-        
 
-            <!-- Projet 2 -->
-            <div data-aos="fade-up" data-aos-delay="200" class="group glass rounded-3xl overflow-hidden">
-                <div class="overflow-hidden bg-sky-900/10"><img src="Image/Air_avion.png" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500"></div>
+            <!-- Projet Churn -->
+            <div data-aos="fade-up" data-aos-delay="100" class="group glass rounded-3xl overflow-hidden">
+                <div class="overflow-hidden bg-sky-900/10">
+                    <img src="Image/Churn.jpg" class="w-full h-48 object-cover group-hover:scale-110 transition duration-500">
+                </div>
                 <div class="p-6">
-                    <h3 class="text-lg font-bold mb-2 text-white">Prévision de séries temporelles — trafic</h3>
-                    <p class="text-gray-400 text-xs mb-4">Dans un contexte où la concurrence est rude entre les compagnies aériennes, comprendre les schémas de voyage des passagers est crucial.
-
-Ce projet vise à prédire l'évolution de nombre de voyageurs d'une compagnie, pour l'aider à optimiser ses opérations et à anticiper la demande.</p>
-                    <a href="https://github.com/keinlarry/Airline-Passenger.git" target="_blank" class="text-sky-400 hover:text-white transition font-bold text-xs"><i class='bx bxl-github text-lg align-middle'></i> Code Source</a>
+                    <h3 class="text-lg font-bold mb-2 text-white">Prédiction du Churn Bancaire — ML en Production</h3>
+                    <p class="text-gray-400 text-xs mb-4">
+                        Projet end-to-end déployé en production : de l'analyse exploratoire jusqu'au pipeline CI/CD automatisé.
+                        À partir d'un dataset déséquilibré (~20% de churn), j'ai comparé cinq algorithmes de classification et retenu
+                        un <span class="text-sky-400">Gradient Boosting</span> optimisé par RandomizedSearchCV (ROC-AUC : 0.87).
+                        Le modèle est exposé via une API REST <span class="text-sky-400">FastAPI</span> et un dashboard
+                        <span class="text-sky-400">Streamlit</span> interactif avec explicabilité individuelle par
+                        <span class="text-sky-400">SHAP</span> (waterfall plot par client). Un pipeline
+                        <span class="text-sky-400">GitHub Actions</span> bloque automatiquement tout déploiement si les tests régressent.
+                    </p>
+                    <p class="text-red-400 text-xs mb-4">Python · Scikit-Learn · FastAPI · Streamlit · SHAP · Pytest · GitHub Actions · Render</p>
+                    <a href="https://github.com/keinlarry/Bank-Customer-Churn-Prediction" target="_blank" class="text-sky-400 hover:text-white transition font-bold text-xs">
+                        <i class='bx bxl-github text-lg align-middle'></i> Code Source
+                    </a>
                 </div>
             </div>
+        
+        
+            
 
             <!-- Projet 3 -->
             <div data-aos="fade-up" data-aos-delay="400" class="group glass rounded-3xl overflow-hidden border-dashed border-sky-500/30">
